@@ -1,0 +1,8 @@
+[1,"Installing 'pls' ...\n"]
+[2,"trying URL 'https://cran.rstudio.com/bin/macosx/big-sur-arm64/contrib/4.1/pls_2.8-0.tgz'\n"]
+[2,"Content type 'application/x-gzip' length 1271275 bytes (1.2 MB)\n====="]
+[2,"================"]
+[2,"=============================\ndownloaded 1.2 MB\n\n"]
+[1,"The downloaded binary packages are in\n"]
+[1,"\t/var/folders/kj/wrkt40v12db1mf3gjwyv4__w0000gn/T//RtmpoDTFUW/downloaded_packages\n"]
+[2,"\n\n✔ Package 'pls' successfully installed.\n"]

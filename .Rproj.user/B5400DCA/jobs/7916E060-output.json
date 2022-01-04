@@ -1,0 +1,6 @@
+[1,"Installing 'leaps' ...\n"]
+[2,"trying URL 'https://cran.rstudio.com/bin/macosx/big-sur-arm64/contrib/4.1/leaps_3.1.tgz'\n"]
+[2,"Content type 'application/x-gzip' length 100164 bytes (97 KB)\n======="]
+[1,"The downloaded binary packages are in\n"]
+[1,"\t/var/folders/kj/wrkt40v12db1mf3gjwyv4__w0000gn/T//RtmplDUU2w/downloaded_packages\n"]
+[2,"===========================================\ndownloaded 97 KB\n\n\n\n✔ Package 'leaps' successfully installed.\n"]

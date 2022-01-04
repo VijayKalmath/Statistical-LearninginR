@@ -1,0 +1,43 @@
+# Validation Set Approach 
+
+library(tidyverse)
+library(ISLR)
+library(boot)
+
+set.seed(1)
+
+
+# Get 196 random indexes 
+train = sample(392,196)
+
+length(train)
+
+# using Auto data and target variable is mpg
+
+colnames(Auto)
+
+
+lm.fit  = lm(mpg~horsepower,data = Auto,subset = train)
+
+
+summary(lm.fit)
+
+# Calculate MSE 
+
+mean((Auto$mpg - predict(lm.fit,Auto))[-train]^2)
+
+
+lm.fit2 = lm(mpg~poly(horsepower,2),data = Auto,subset = train)
+lm.fit3  = lm(mpg~poly(horsepower,3),data = Auto,subset = train)
+
+summary(lm.fit2)
+
+summary(lm.fit3)
+
+# Mean of Quadratic 
+mean((Auto$mpg - predict(lm.fit2,Auto))[-train]^2)
+
+mean((Auto$mpg - predict(lm.fit3,Auto))[-train]^2)
+
+
+
